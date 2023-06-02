@@ -1,3 +1,4 @@
+//PASS
 //GIVE AN ARRAY OF STRINGS
 //EACH STRING INCLUDE THREE PORTIONS: ID, ACTION TYPE, TIME AMMOUNT
 //EX:  ["1 signin 80", "2 signin 100", "1 signout 120", "2 signout 110"]
@@ -74,5 +75,3 @@ const returnValidIds: ReturnValidIds = function (inforArr, maxSpan) {
   //RETURN THE VALID ARRAY
   return validIdArr;
 };
-
-//PASS THE TEST
