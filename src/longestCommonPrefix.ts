@@ -7,7 +7,7 @@
 // Input: strs = ["flower","flow","flight"]
 // Output: "fl"
 
-//MY SOLUTION
+//SIMON SOLUTION
 const returnCommonPrefix = function (strs: string[]) {
   if (strs.length === 1) {
     return strs[0];

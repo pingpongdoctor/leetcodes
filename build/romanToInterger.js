@@ -14,7 +14,7 @@
 // X can be placed before L (50) and C (100) to make 40 and 90.
 // C can be placed before D (500) and M (1000) to make 400 and 900.
 // Given a roman numeral, convert it to an integer.v
-//MY SOLUTION
+//SIMON SOLUTION
 const convertRomanToInterger = function (s) {
     const romanArr = s.split("");
     const validInputRomanNumArr = ["I", "V", "X", "L", "C", "D", "M"];
@@ -61,7 +61,7 @@ const convertRomanToInterger = function (s) {
         return "invalid input";
     }
 };
-//MY SOLUTION AFTER REFERING TO THE LEETCODE WEBSITE SOLUTIONS
+//SIMON SOLUTION AFTER REFERING TO THE LEETCODE WEBSITE SOLUTIONS
 const convertRomanNumToInterger = function (s) {
     const relationObj = {
         I: 1,

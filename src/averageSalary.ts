@@ -9,7 +9,7 @@
 // Explanation: Minimum salary and maximum salary are 1000 and 4000 respectively.
 // Average salary excluding minimum and maximum salary is (2000+3000) / 2 = 2500
 
-//MY SOLUTION
+//SIMON SOLUTION
 function average(salary: number[]): number {
   const max = Math.max(...salary);
   const min = Math.min(...salary);

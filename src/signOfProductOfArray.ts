@@ -7,7 +7,7 @@
 
 // Return signFunc(product).
 
-//MY SOLUTION
+//SIMON SOLUTION
 function arraySign(nums: number[]) {
   if (1 <= nums.length && nums.length <= 1000) {
     let result = nums[0];

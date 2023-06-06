@@ -5,7 +5,7 @@
 // 0 if x is equal to 0.
 // You are given an integer array nums. Let product be the product of all values in the array nums.
 // Return signFunc(product).
-//MY SOLUTION
+//SIMON SOLUTION
 function arraySign(nums) {
     if (1 <= nums.length && nums.length <= 1000) {
         let result = nums[0];
