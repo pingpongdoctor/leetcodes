@@ -22,7 +22,6 @@ function isAnagram(s, t) {
         return false;
     }
 }
-isAnagram("rat", "car");
 //LC SOLUTION
 function isAnagraLc(s, t) {
     const sortedSArr = s.split("").sort();
